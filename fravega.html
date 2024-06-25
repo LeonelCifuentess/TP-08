@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*hedear*/
+        .container {
+            background-color: rgb(177, 163, 163);
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box {
+            width: 400px;
+            height: 250px;
+            margin: 20px;
+            background-color: aliceblue;
+            display: flex;
+            position: relative;
+
+
+        }
+
+        .fondo {
+            width: 150px;
+            height: 250px;
+
+        }
+
+        .fondo-color1 {
+            background-color: palevioletred;
+        }
+
+        .fondo-color2 {
+            background-color: blueviolet;
+        }
+
+        .img1 {
+            position: absolute;
+            width: 190px;
+
+            left: 10px;
+            top: 80px;
+
+        }
+
+        .img2 {
+            position: absolute;
+            width: 160px;
+
+            left: 20px;
+            top: 90px;
+        }
+
+        .color1 {
+            background-color: blueviolet;
+        }
+
+        .color {
+            background-color: palevioletred;
+        }
+
+        .conten {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 80px;
+            width: 250px;
+            gap: 15px;
+
+
+        }
+
+        .boton {
+            padding: 10px;
+            background-color: unset;
+        }
+
+        .boton-color1 {
+            color: palevioletred;
+            border-color: palevioletred;
+        }
+
+        .boton-color2 {
+            color: blueviolet;
+            border-color: blueviolet;
+        }
+
+        .titulo {
+            padding: 10px;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: aliceblue;
+        }
+
+        .texto {
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        /*main*/
+        .imagen {
+            width: 400px;
+            height: 200px;
+            position: ;
+        }
+
+        main .box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .oferta {
+
+            position: absolute;
+            background-color: palevioletred;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-left: 20px;
+            
+           
+        }
+
+        .num{
+            display: flex;
+        }
+        .grande{
+            font-size: 30px; 
+            margin-left: 5px;
+            
+        }
+        .porcentaje{
+            font-size: 20px;
+        }
+        .off{
+            font-size: 10px;
+            margin-top: -6px;
+        }
+        .hasta{
+            font-size: 10px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        main .texto {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="fondo fondo-color1"></div>
+            <div class="conten">
+                <div> <span class="color"><strong class="titulo"> DESCUBRILAS</strong></span></div>
+                <div class="texto">No te pierdas las mejores ofertas al precio mas bajo</div>
+                <div><button class="boton boton-color1">ver mas</button></div>
+
+            </div>
+            <img src="./img/descuento.png" alt="descuento" class="img2">
+        </div>
+
+
+        <div class="box">
+            <div class="fondo fondo-color2"></div>
+            <div class="conten">
+                <div><span class="color1"><strong class="titulo"> FRÁVEGA CASA</strong></span></div>
+                <div class="texto">Hasta 40% off en colchones, muebles y articulos de decoracion seleccionado</div>
+                <div><button class="boton boton-color2">ver mas </button></div>
+            </div>
+            <img src="./img/sillon2.png" alt="sillon" class="img1">
+        </div>
+    </div>
+    <main>
+        <div class="container">
+
+
+            <div class="box">
+
+                <div class="oferta">
+                    <div class="hasta">HASTA</div>
+                    <div class="num">
+                        <div class="grande">25</div>
+                        <div>
+                            <div class="porcentaje">%</div>
+                            <div class="off">OFF</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="img">
+                    <img src="./img/iphone15.jpeg" alt="iphone15" class="imagen">
+                </div>
+
+                <div class="texto"> Notebooks, tablets, smartwatches y mucho mas en hasta 6 sin interes</div>
+
+            </div>
+
+
+            <div class="box">
+
+                <div class="oferta">
+                    <div class="hasta">HASTA</div>
+                    <div class="num">
+                        <div class="grande">45</div>
+                        <div>
+                            <div class="porcentaje">%</div>
+                            <div class="off">OFF</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <img src="./img/bicicleta.jpg" alt="bicicleta" class="imagen">
+                </div>
+
+                <div class="texto">Aprovecha hasta 6 sin interes en articulos de deportes y fitness</div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="oferta">
+                    <div class="hasta">HASTA</div>
+                    <div class="num">
+                        <div class="grande">30</div>
+                        <div>
+                            <div class="porcentaje">%</div>
+                            <div class="off">OFF</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="img">
+                    <img src="./img/heladera.avif" alt="heladera" class="imagen">
+                </div>
+                <div class="texto">
+                    Heladeras, cocinas, lavado y pequeños electrodomesticos en hasta 6 sin interes.
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
